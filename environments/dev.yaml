@@ -9,10 +9,10 @@ environment:
   name: dev # must match this file's name
 
 # Optional settings. Uncomment only what you need.
-# deploy:
-#   roles: # project roles Terraform needs to manage your resources
-#     - roles/storage.admin
-#   approval: true # default: true for prod and production, false otherwise
+deploy:
+  roles: # project roles Terraform needs to manage your resources
+    - roles/storage.admin
+  approval: true # default: true for prod and production, false otherwise
 #   approvers: # who can approve, when approval is on
 #     - group:platform-approvers@example.com
 # alerts:
