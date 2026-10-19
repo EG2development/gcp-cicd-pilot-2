@@ -9,6 +9,10 @@ resource "google_storage_bucket" "example" {
   uniform_bucket_level_access = true
   public_access_prevention    = "enforced"
 
+  labels = {
+    purpose = "pilot"
+  }
+
   versioning {
     enabled = true
   }
