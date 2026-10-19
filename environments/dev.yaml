@@ -2,7 +2,7 @@
 #   ./scripts/bootstrap.sh dev
 # Bootstrap and Cloud Build read this file. Everything else is derived.
 project:
-  id: my-gcp-project # the GCP project this environment deploys to
+  id: eg2-cicd-pilot2-m5p8 # the GCP project this environment deploys to
   region: europe-west2 # where Cloud Build runs and Terraform state is stored
 
 environment:
